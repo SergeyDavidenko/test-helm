@@ -3,7 +3,7 @@ entries:
   mywebapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-09T15:19:37.209205+01:00"
+    created: "2024-02-09T15:31:35.292101+01:00"
     description: A Helm chart for Kubernetes
     digest: ed56be2310da86edb58ad6788e74f9ec382a8654f6691bf1ce444e7774a93916
     name: mywebapp
@@ -13,7 +13,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-09T15:19:37.20705+01:00"
+    created: "2024-02-09T15:31:35.290306+01:00"
     description: A Helm chart for Kubernetes
     digest: d35b80b69166c765eb7863c89bc28e8cf0227f5019243f2fcfd9efc67871d110
     name: mywebapp
@@ -23,7 +23,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-09T15:19:37.206723+01:00"
+    created: "2024-02-09T15:31:35.289928+01:00"
     description: A Helm chart for Kubernetes
     digest: 64cc0e411c04cdb592f2e1c04a4737fad15d849191a98bbf2d2780d5d1e7d70e
     name: mywebapp
@@ -33,7 +33,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-09T15:19:37.206389+01:00"
+    created: "2024-02-09T15:31:35.289628+01:00"
     description: A Helm chart for Kubernetes
     digest: 0cd59334be0fe1c68c02d162faf8aae0cae55530665ad87d9fb0c62865b6c2a6
     name: mywebapp
@@ -43,7 +43,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-09T15:19:37.205944+01:00"
+    created: "2024-02-09T15:31:35.289242+01:00"
     description: A Helm chart for Kubernetes
     digest: d423e786e9929248f36b2464d2596411f8446e7a0d7c5a9651d81482c5f22250
     name: mywebapp
@@ -53,7 +53,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-09T15:19:37.205471+01:00"
+    created: "2024-02-09T15:31:35.288818+01:00"
     description: A Helm chart for Kubernetes
     digest: 43040016667b4c89dc42f6fa39ad7ca08c25daa8cbb3bb408347b34b5b37e61c
     name: mywebapp
@@ -61,4 +61,4 @@ entries:
     urls:
     - https://sergeydavidenko.github.io/test-helm/mywebapp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-02-09T15:19:37.204164+01:00"
+generated: "2024-02-09T15:31:35.288001+01:00"
