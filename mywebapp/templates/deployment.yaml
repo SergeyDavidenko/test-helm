@@ -5,7 +5,7 @@ metadata:
   labels:
     app.kubernetes.io/name: {{ include "mywebapp.name" . }}
     helm.sh/chart: {{ include "mywebapp.chart" . }}
-    test: testv1
+    test: testv2
 spec:
   replicas: 1
   selector:
