@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "mywebapp.fullname" . }}
+  labels:
+    app.kubernetes.io/name: {{ include "mywebapp.name" . }}
+    helm.sh/chart: {{ include "mywebapp.chart" . }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ include "mywebapp.name" . }}
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ include "mywebapp.name" . }}
+    spec:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "nginx:latest"
+          ports:
+            - name: http
+              containerPort: 80
+
